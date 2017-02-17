@@ -40,5 +40,5 @@ jspm_packages
 build
 
 # model files, hidden by default
-src/html/models
-# !models/obj
+src/html/models/**/*.*
+!src/html/models/obj/vive-controller/**/*.*
